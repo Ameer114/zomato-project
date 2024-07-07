@@ -1,0 +1,623 @@
+*{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    transition: all 0.2s ease-in-out;
+    
+}
+.container1{
+height: 55vh;
+background:linear-gradient(rgba(0, 0, 0, 0.185),rgba(0, 0, 0, 0.199)),url(images/backfood.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+padding: 20px 200px;
+color: white;
+}   
+nav p{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container1 img{
+display:block;
+margin: 60px auto 20px ;
+}
+
+.container1 .midp{
+    font-size: 35px;
+    text-align: center;
+    margin: 30px 0px;
+}
+.container1 .box{
+    width: 760px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box .location{
+width: 35%;
+height: 100%;
+border-radius: 4px;
+
+}
+.location {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.location svg{
+margin: 0px 10px;
+    
+}
+.location input{
+    padding: 4px;
+    
+    border:none
+}
+
+.box .midbar{
+    width: 0rem;
+    height: 1rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+
+.box .searchbox{
+    width: 70%;
+    height: 100%;
+    padding: 0px 10px ;
+    background-color: rgb(247, 255, 247);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.searchbox input{
+width: 440px;
+height: 30px;
+border: none;
+}
+
+.container2{
+    height: 45vh;
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    padding: 30px 10px ;
+    box-sizing: border-box;
+    
+}
+.container2 .card{
+    width: 350px;
+    height: 230px;
+    border: 1px solid rgb(213, 210, 210);
+    margin: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+
+}
+.card .im1{
+    width: 100%;
+    height: 80%;
+    background: url(images/dish1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    
+}
+.card .im2{
+    width: 100%;
+    height: 80%;
+    background: url(images/dish2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    
+}
+.card .im3{
+    width: 100%;
+    height: 80%;
+    background: url(images/dish3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 11px;
+    
+}
+.card .ztext{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom-left-radius: 11px;
+    border-bottom-right-radius: 11px;
+    position:relative;
+    bottom: 34px;
+    padding:10px 20px;
+    box-sizing: border-box;
+}
+
+.ztext .h{
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.ztext .d{
+    color: rgb(79, 79, 79);
+}
+
+.container2 .card:hover{
+    transform: scale(1.06);
+}
+
+.container3{
+    margin:0px 200px;
+    padding: 10px;
+    height: 60vh;
+    
+}
+
+.container3 .title{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(28, 28, 28);
+}
+
+.container3 .subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container3 .subtitle .left{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.container3 .subtitle .right{
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(239, 79, 95);
+    cursor: pointer;
+}
+.container3 .cards{
+    height: 50vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container3 .cards .card1{
+    width: 260px;
+    height: 85%;
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.977)), url(images/card1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.container3 .cards .card2{
+    width: 260px;
+    height: 85%;
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.977)), url(images/card2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.container3 .cards .card3{
+    width: 260px;
+    height: 85%;
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.977)), url(images/card3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.container3 .cards .card4{
+    width: 260px;
+    height: 85%;
+    background:linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.977)), url(images/card4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.container3 .cards p{
+    margin: 0px 20px;
+}
+.container3 .card1 .t2{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container3 .card1 .t1{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container3 .card2 .t2{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container3 .card2 .t1{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container3 .card3 .t2{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container3 .card3 .t1{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container3 .card4 .t2{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.container3 .card4 .t1{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.container4{
+    margin:30px 170px 50px;
+    padding: 50px 12px;
+    height: 50vh;
+}
+.container4 .pinc4{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 10px 30px 30px;
+    color: rgb(54, 54, 54);
+}
+.container4 .con4{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.container4 .con4 .number{
+    border: 1px solid rgb(172, 171, 171);
+    width:350px;
+    height: 80px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    
+}
+.container4 .number .left .p1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+}
+
+.container4 .number .left .p2{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+}
+
+.container4 .numberl {
+    border: 1px solid rgb(172, 171, 171);
+    width:350px;
+    height: 80px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.container4 .numberl .lp1{
+    display:contents ;
+    justify-content:space-between;
+    align-items: center;
+}
+.container4 .numberl .lp1 svg{
+    margin-left: 10px;
+}
+.container4 .number:hover{
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.114);
+}
+.container4 span{
+    font-weight: 500;
+}
+
+.container5{
+    height: 70vh;
+    margin:10px 0px 50px;
+    background-color: rgb(255, 251, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px 210px;
+}
+.container5 .left{
+    width: 45%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.container5 .right{
+    width: 55%;
+    height: 100%;
+    padding: 50px 20px ;
+    box-sizing: border-box;
+}
+.container5 .right .title{
+    font-size: 44px;
+    font-weight: 500;
+}
+.container5 .right .stitle{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 20px 80px 20px 0px;
+}
+.container5 .right .fr1{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container5 .right .fr1 input{
+    transform: scale(1.5);
+    margin: 0px 6px 0px 4px;
+    
+}
+input[type=radio]{
+    accent-color: rgb(240, 79, 95);
+    cursor: pointer;
+}
+
+
+.container5 .right .fr1 span{
+    display: flex;
+}
+.container5 .right .fr2{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container5 .right .fr2 .tbox{
+    width: 65%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+.container5 .right .fr2 .sharebutton{
+    width: 33%;
+    height: 46px;
+    background-color:rgb(240, 79, 95) ;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.container5 .right .fr2 .sharebutton:hover{
+    background-color: rgb(212, 41, 58);
+}
+.container5 .right .fr2 ::placeholder{
+    font-size: 18px;
+    font-weight: 300;
+}
+.container5 .right .des{
+color:rgb(156, 156, 156);
+}
+.container5 .right .images{
+    width: 60%;
+    margin-top: 15px;
+}
+.container5 .right img{
+    width: 140px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.container6{
+    height: 60vh;
+    width: 70vw;
+    
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+.container6 .title{
+font-size: 30px;
+font-weight: 500;
+color: rgb(54,54,54);
+}
+.container6 .question{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid rgb(232, 232, 232);
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px 0px;
+    box-sizing: border-box;
+    height: 70px;
+    cursor: pointer;
+}
+.container6 .question .content{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(28,28,28);
+}
+
+.container7{
+    height: 60vh;
+    width: 100%; 
+    padding: 20px 220px;
+    margin: 20px auto 0px;
+    background-color: rgb(247, 247, 247);
+    box-sizing: border-box;
+}
+.container7 .fhead .llogo{
+    width: 150px;
+}
+.container7 .fhead{
+    width: 100%;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container7 .fhead .flag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container7 .fhead .flag span{
+    display: flex;
+    width: 100px;
+    align-items: center;
+   justify-content: space-between;
+    text-align: center;
+    border: 1px solid rgb(181, 181, 181);
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.container7 .fhead .flag span p{
+    margin:0px 5px;
+}
+.container7 .footers{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.container7 .footers .foots{
+    width: 200px;
+    height: 100%;
+
+}
+.container7 .footers .foots .title{
+    font-size: 16px;
+    font-weight: 400;
+}
+.container7 .footers .foots ul li{
+    list-style-type: none;
+    margin: 5px 0px 0px -40px;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+}
+.container7 .footers .foots  ul{
+    margin-top: 10px;
+}
+.container7 .footers .foots .social{
+    width: 70%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container7 .footers .foots .social svg{
+    cursor: pointer;
+}
+.container7 .footers .foots img{
+width:130px;
+margin-bottom: 5px;
+cursor: pointer;
+}
+.container7 .footers .foots .download{
+    margin-top: 20px;
+}
+.container7 hr{
+    border: 1px solid rgb(208, 208, 208) ;
+}
+.container7 .last{
+    font-size: 13px;
+    color: rgb(79, 79, 79);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
